@@ -6,16 +6,19 @@ I'm a passionate developer who enjoys building **clean, responsive, and user-fri
 
 ---
 
+
+
 ### 👨‍💻 About Me
 
-Here’s a more polished and stronger version with a slightly more professional/dev-focused tone:
-
-* 🔭 Currently working on **scalable React-based applications, real-time collaborative platforms, and full-stack personal projects**
-* 🌱 Currently learning **advanced system design, backend engineering, cloud deployment (AWS), and AI integrations**
-* 👯 Looking to collaborate on **open-source projects, innovative SaaS products, and impactful tech solutions**
-* 🤔 Exploring **performance optimization, distributed systems, and production-grade architectures**
-* 💬 Ask me about **React, Tailwind CSS, Node.js, Vite, GitHub, deployment workflows, and DSA fundamentals**
-* ⚡ Fun fact: I enjoy building products that combine **technology, creativity, and real-world impact** 🚀
+* 🚀 Full Stack Developer focused on building **scalable real-time applications, collaborative platforms, and production-grade web systems**
+* 🔭 Currently working on **SyncBoard**, a real-time collaborative workspace powered by **WebSockets, Yjs CRDTs, Redis, and React Flow**
+* 🌱 Exploring **advanced backend engineering, distributed systems, cloud infrastructure (AWS), and AI-powered applications**
+* ⚙️ Experienced with **React.js, Next.js, Node.js, TypeScript, MongoDB, PostgreSQL, Redis, Docker, and scalable system architecture**
+* 🧠 Strong interest in **real-time synchronization, performance optimization, low-latency systems, and scalable backend design**
+* 🏆 Built and deployed projects used in **real-world hackathons and live coding competitions with 130+ participants**
+* 👯 Open to collaborating on **open-source projects, SaaS products, developer tools, and innovative full-stack applications**
+* 💬 Ask me about **MERN Stack, WebSockets, REST APIs, authentication systems, React architecture, Tailwind CSS, and DSA**
+* ⚡ Fun fact: I enjoy turning complex engineering problems into **clean, interactive, and user-focused products** 🚀
 
 
 
