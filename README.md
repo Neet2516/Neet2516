@@ -1,22 +1,25 @@
-## Hi there 👋, I'm Navneet Sinha
+# Hi there 👋, I'm Navneet Sinha
 
-🚀 **Full Stack Web Developer | AI integrated web services**
+🚀 **Full Stack Developer | AI & Distributed Systems Enthusiast | Open-Source Builder as well as Contributor**
 
-I'm a passionate developer who enjoys building **clean, responsive, and user-friendly web applications**. I mostly work with **React**, modern tooling, and love turning ideas into real-world products.
+I'm a passionate developer focused on building **scalable, production-grade web applications and AI-powered developer tools**. I enjoy working with modern backend architectures, distributed systems, and AI agents to turn complex engineering problems into practical products.
+
 
 ---
 
 
 
 ### 👨‍💻 About Me
-* 🚀 Full Stack Developer focused on building **scalable real-time applications, distributed systems, and production-grade web platforms**
-* 🔭 Currently working on **DevFlow**, a modern, high-throughput, fault-tolerant distributed DAG workflow and CI/CD engine built with **Node.js, TypeScript, Express, BullMQ, Redis Streams, PostgreSQL, and React**
-* 🌱 Exploring **advanced backend engineering, distributed message queues, cloud infrastructure (AWS), and microservices architecture**
+
+* 🚀 Full Stack Developer focused on building **scalable real-time applications, distributed systems, AI-powered developer tools, and production-grade web platforms**
+* 🔭 **Currently working on Octo-Engine** — an AI-powered developer tool that uses **AI agents to analyze GitHub repositories and automatically generate detailed project reports and documentation**
+* 🌱 Exploring **AI agents, advanced backend engineering, distributed systems, cloud infrastructure (AWS), microservices architecture, and developer tooling**
 * ⚙️ Experienced with **React.js, Next.js, Node.js, TypeScript, Express, PostgreSQL, Redis, BullMQ, MongoDB, Docker, and scalable backend design**
-* 🧠 Strong interest in **real-time synchronization, event-driven systems, performance optimization, and low-latency API design**
+* 🧠 Strong interest in **AI integration, real-time synchronization, event-driven systems, performance optimization, low-latency APIs, and system architecture**
+* 🛠️ **DevFlow** — my **open-source distributed DAG workflow and CI/CD engine**, built with **Node.js, TypeScript, Express, BullMQ, Redis Streams, PostgreSQL, and React**. I actively maintain and continuously improve it.
 * 🏆 Built and deployed projects used in **real-world hackathons and live coding competitions with 130+ participants**
-* 👯 Open to collaborating on **open-source projects, developer tooling, distributed systems, and full-stack SaaS applications**
-* 💬 Ask me about **MERN Stack, Distributed Systems, Task Queues, WebSockets, REST APIs, System Architecture, and DSA**
+* 👯 Open to collaborating on **open-source projects, AI developer tools, distributed systems, and full-stack SaaS applications**
+* 💬 Ask me about **MERN Stack, AI Agents, Distributed Systems, Task Queues, WebSockets, REST APIs, System Architecture, and DSA**
 * ⚡ Fun fact: I enjoy turning complex architectural problems into **clean, robust, and user-friendly software** 🚀
 
 
