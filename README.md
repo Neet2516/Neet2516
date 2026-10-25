@@ -1,78 +1,111 @@
-`neet@github:~$ whoami` ![Minimal crimson terminal mark](assets/terminal-mark.svg)
+`navneet@github:~$ whoami` ![Crimson N terminal mark](assets/terminal-mark.svg)
 
 ```text
-[N]  Navneet Sinha
-	Full-Stack Developer
-	TypeScript | AI Integrations | Distributed Systems
+Navneet Sinha
+Full-Stack Developer
+Building full-stack systems, collaborative applications, and AI-powered developer tools.
 
-	Build practical systems. Keep them reliable. Make complexity useful.
+STATUS: BUILDING
+FOCUS:  FULL-STACK / AI / DISTRIBUTED SYSTEMS
 ```
 
 ---
 
-`neet@github:~$ cat about.txt`
+`navneet@github:~$ cat about.txt`
 
 ```text
-I build full-stack software with an interest in distributed systems and AI
-integrations. I enjoy turning complex ideas into practical tools that are
-straightforward to use and dependable in production.
+I build practical web software across the stack, from React and Next.js
+interfaces to Node.js services and REST APIs. My work explores collaborative
+systems, distributed execution, and useful AI integrations.
 ```
 
 ---
 
-`neet@github:~$ ls ./tech-stack`
+`navneet@github:~$ ls ./systems`
 
 ```text
-LANGUAGES             TypeScript, JavaScript, HTML, CSS
-FRONTEND              React, Vite, Tailwind CSS, XYFlow, Quill
-BACKEND               Node.js, Express, WebSockets, Yjs
-DATABASES             PostgreSQL, MongoDB, Redis, LevelDB
-INFRA / DEVOPS        Docker, Docker Compose, Nginx
-AI INTEGRATIONS       AI failure diagnostics (DevFlow)
+LANGUAGES             JavaScript, TypeScript, C, C++, Java, HTML, CSS
+FRONTEND              React, Next.js, Vite, Tailwind CSS, XYFlow, Quill
+BACKEND               Node.js, Express, REST APIs, WebSockets, WebRTC, JWT
+DATABASES             PostgreSQL, MongoDB, MySQL, Redis, LevelDB
+INFRASTRUCTURE        Docker, Nginx, GitHub Actions, Git, Postman, Cloudinary
+ENGINEERING CONCEPTS  CI/CD, DAG scheduling, distributed workers, event-driven
+                      systems, Yjs CRDTs, background jobs, static repo analysis
 ```
 
 ---
 
-`neet@github:~$ ./projects.sh --featured`
+`navneet@github:~$ ./projects.sh --featured`
 
 ```text
-NAME:        DevFlow
-DESCRIPTION: A high-throughput, fault-tolerant distributed DAG workflow and
-		   CI/CD engine with real-time log streaming and AI failure analysis.
-STACK:       Node.js, TypeScript, Express, BullMQ, Redis Streams, PostgreSQL,
-		   React, Vite
+[PROJECT]
+NAME       : DevFlow
+PURPOSE    : Distributed CI/CD workflow engine. DAG validation and scheduling,
+             specialized workers, live execution updates, and failure recovery.
+STACK      : Node.js, TypeScript, Express, BullMQ, Redis Streams, PostgreSQL,
+             React, Vite, React Flow, Docker
+SOURCE     : https://github.com/Neet2516/DevFlow
+DEMO       : https://docs-devflow.vercel.app
 ```
 
-`REPOSITORY:` [github.com/Neet2516/DevFlow](https://github.com/Neet2516/DevFlow)
+Project: [DevFlow](https://github.com/Neet2516/DevFlow) | [Documentation](https://docs-devflow.vercel.app)
 
 ```text
-NAME:        SyncBoard
-DESCRIPTION: A real-time collaborative workspace with an infinite canvas,
-		   shared editing, and live synchronization.
-STACK:       TypeScript, React, Node.js, Express, WebSockets, Yjs, XYFlow,
-		   MongoDB, LevelDB, Redis, Docker
+[PROJECT]
+NAME       : SyncBoard
+PURPOSE    : Collaborative infinite canvas with shared editing and live
+             synchronization, embedded rich-text editors, and board persistence.
+STACK      : React, TypeScript, Node.js, Express, WebSockets, Yjs, XYFlow,
+             Quill, MongoDB, LevelDB, Redis, Docker
+SOURCE     : https://github.com/Neet2516/SyncBoard
+DEMO       : https://sync-board-client-lake.vercel.app/
 ```
 
-`REPOSITORY:` [github.com/Neet2516/SyncBoard](https://github.com/Neet2516/SyncBoard)
+Project: [SyncBoard](https://github.com/Neet2516/SyncBoard) | [Live app](https://sync-board-client-lake.vercel.app/)
+
+```text
+[PROJECT]
+NAME       : Octo-Engine
+PURPOSE    : Analyzes public GitHub repositories and generates evidence-backed
+             technical reports with an interactive editor and document exports.
+STACK      : Next.js, TypeScript, GitHub REST API, PostgreSQL, Prisma, Redis,
+             BullMQ, OpenAI / Anthropic / Groq providers
+SOURCE     : https://github.com/Neet2516/octo-engine
+DEMO       : Not listed in the repository metadata
+```
+
+Project: [Octo-Engine](https://github.com/Neet2516/octo-engine)
 
 ---
 
-`neet@github:~$ git log --oneline`
+`navneet@github:~$ git log --oneline`
 
-- `ACTIVITY:` [GitHub contribution history](https://github.com/Neet2516)
-- `REPOSITORIES:` [Public repositories](https://github.com/Neet2516?tab=repositories)
+- `ACTIVITY     :` [Contribution graph and recent activity](https://github.com/Neet2516)
+- `REPOSITORIES :` [Browse public repositories](https://github.com/Neet2516?tab=repositories)
 
 ---
 
-`neet@github:~$ cat contact.txt`
+`navneet@github:~$ cat experience.log`
 
-- `GITHUB:` [github.com/Neet2516](https://github.com/Neet2516)
+```text
+Full Stack Web Development Intern — Future Interns
+Full Stack Developer — GDG AKGEC
+
+EDUCATION: B.Tech, Computer Science & Engineering — AKGEC (in progress)
+```
+
+---
+
+`navneet@github:~$ cat contact.txt`
+
+- `GITHUB   :` [github.com/Neet2516](https://github.com/Neet2516)
+- `LINKEDIN :` [linkedin.com/in/navneet-sinha-ba0853375](https://www.linkedin.com/in/navneet-sinha-ba0853375/)
 - `PORTFOLIO:` [portfolio-1-tofl.onrender.com](https://portfolio-1-tofl.onrender.com/)
-- `LINKEDIN:` [linkedin.com/in/navneet-sinha-ba0853375](https://www.linkedin.com/in/navneet-sinha-ba0853375/)
+- `EMAIL    :` [getneet.25@gmail.com](mailto:getneet.25@gmail.com)
 
 ---
 
-`neet@github:~$ exit`
+`navneet@github:~$ exit`
 
 ```text
 // Building systems, one commit at a time.
