@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="font-family: 'Times New Roman', Times, Georgia, serif;">
 
 <p align="center">
   <img src="svg/hero.svg?raw=true" alt="Navneet Sinha — Full Stack Developer & Systems Engineer" width="100%" />

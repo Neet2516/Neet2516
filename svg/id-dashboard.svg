@@ -47,10 +47,10 @@
 
   <style>
     .dash-font-display {
-      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-family: 'Times New Roman', Times, Georgia, serif;
     }
     .dash-font-mono {
-      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-family: 'Times New Roman', Times, Georgia, serif;
     }
 
     @keyframes dash-holo-sweep {
