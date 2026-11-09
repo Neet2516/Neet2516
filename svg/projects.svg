@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="proj-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0E16"/>
+      <stop offset="50%" stop-color="#14141E"/>
+      <stop offset="100%" stop-color="#0D0E16"/>
+    </linearGradient>
+
+    <radialGradient id="proj-glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0D0E16" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="proj-card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#1B1922" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F05033" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="proj-flagship-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F05033"/>
+      <stop offset="50%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+
+    <pattern id="proj-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.75" fill="#F05033" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .proj-font-display {
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .proj-font-mono {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    @keyframes proj-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .proj-beacon { animation: proj-pulse 2s infinite ease-in-out; }
+  </style>
+
+  <!-- Background -->
+  <rect width="940" height="700" rx="20" fill="url(#proj-bg-grad)"/>
+  <rect width="940" height="700" rx="20" fill="url(#proj-glow)"/>
+  <rect width="940" height="700" rx="20" fill="url(#proj-dots)"/>
+  <rect x="1" y="1" width="938" height="698" rx="19" fill="none" stroke="url(#proj-card-border)" stroke-width="1.5"/>
+
+  <!-- Section Header -->
+  <g transform="translate(36, 32)">
+    <rect x="0" y="0" width="180" height="22" rx="5" fill="#14141E" stroke="#DC2626" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="10" cy="11" r="3.5" fill="#DC2626"/>
+    <text x="20" y="14.5" fill="#F05033" class="proj-font-mono" font-size="9" font-weight="700" letter-spacing="1">SYSTEM SHOWCASE</text>
+
+    <text x="0" y="44" fill="#F8FAFC" class="proj-font-display" font-size="20" font-weight="800" letter-spacing="-0.4">FEATURED ENGINEERING PROJECTS</text>
+    <text x="350" y="44" fill="#A1A1AA" class="proj-font-mono" font-size="11.5">// 5 BESPOKE PRODUCTION BUILDS</text>
+  </g>
+
+  <!-- ================= ROW 1: CARDS 1 & 2 ================= -->
+  <!-- CARD 1: SyncBoard -->
+  <g transform="translate(30, 88)">
+    <rect width="425" height="175" rx="14" fill="#14141E" stroke="url(#proj-card-border)" stroke-width="1.2"/>
+    
+    <g transform="translate(20, 24)">
+      <!-- Title & Category -->
+      <text x="0" y="0" fill="#F8FAFC" class="proj-font-display" font-size="16" font-weight="700">SyncBoard</text>
+      <rect x="96" y="-12" width="124" height="18" rx="4" fill="#1B1922" stroke="#DC2626" stroke-opacity="0.3" stroke-width="0.8"/>
+      <text x="104" y="0.5" fill="#F05033" class="proj-font-mono" font-size="8.5" font-weight="600">COLLABORATIVE CANVAS</text>
+
+      <!-- Subtitle -->
+      <text x="0" y="20" fill="#F05033" class="proj-font-mono" font-size="10.5" font-weight="600">Real-Time Collaborative Workspace</text>
+
+      <!-- Description -->
+      <text x="0" y="38" fill="#A1A1AA" class="proj-font-display" font-size="11">
+        <tspan x="0" dy="0">Collaborative infinite canvas with live CRDT synchronization,</tspan>
+        <tspan x="0" dy="16">embedded rich text editing, and multi-tenant persistence.</tspan>
+      </text>
+
+      <!-- Stack Badges -->
+      <g transform="translate(0, 78)">
+        <rect width="385" height="22" rx="4" fill="#0D0E16" stroke="#1B1922" stroke-width="0.8"/>
+        <text x="8" y="14.5" fill="#A1A1AA" class="proj-font-mono" font-size="9">React · TS · Node.js · WebSockets · Yjs · Redis · MongoDB</text>
+      </g>
+
+      <!-- Links & Star -->
+      <g transform="translate(0, 114)">
+        <text x="0" y="14" fill="#DC2626" class="proj-font-mono" font-size="10" font-weight="700">★ 1 Star</text>
+        <text x="65" y="14" fill="#A1A1AA" class="proj-font-mono" font-size="10">|</text>
+        <a href="https://github.com/Neet2516/SyncBoard" target="_blank">
+          <text x="78" y="14" fill="#F8FAFC" class="proj-font-mono" font-size="10" text-decoration="underline">Source Code ↗</text>
+        </a>
+        <text x="175" y="14" fill="#A1A1AA" class="proj-font-mono" font-size="10">|</text>
+        <a href="https://sync-board-client-lake.vercel.app/" target="_blank">
+          <text x="188" y="14" fill="#F05033" class="proj-font-mono" font-size="10" text-decoration="underline">Live App ↗</text>
+        </a>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 2: Code Theft Auto -->
+  <g transform="translate(485, 88)">
+    <rect width="425" height="175" rx="14" fill="#14141E" stroke="url(#proj-card-border)" stroke-width="1.2"/>
+    
+    <g transform="translate(20, 24)">
+      <!-- Title & Category -->
+      <text x="0" y="0" fill="#F8FAFC" class="proj-font-display" font-size="16" font-weight="700">Code Theft Auto</text>
+      <rect x="135" y="-12" width="112" height="18" rx="4" fill="#1B1922" stroke="#DC2626" stroke-opacity="0.3" stroke-width="0.8"/>
+      <text x="143" y="0.5" fill="#F05033" class="proj-font-mono" font-size="8.5" font-weight="600">GAMIFIED ARENA</text>
+
+      <!-- Subtitle -->
+      <text x="0" y="20" fill="#F05033" class="proj-font-mono" font-size="10.5" font-weight="600">Real-Time Coding Competition Platform</text>
+
+      <!-- Description -->
+      <text x="0" y="38" fill="#A1A1AA" class="proj-font-display" font-size="11">
+        <tspan x="0" dy="0">Interactive gamified multiplayer competition platform with live</tspan>
+        <tspan x="0" dy="16">problem evaluation, dynamic matchmaking, and scoring.</tspan>
+      </text>
+
+      <!-- Achievement Callout -->
+      <g transform="translate(0, 78)">
+        <rect width="385" height="22" rx="4" fill="#1B1922" stroke="#DC2626" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="8" y="14.5" fill="#F05033" class="proj-font-mono" font-size="9" font-weight="700">🏆 IMPACT: Used by 130+ students across 40+ teams</text>
+      </g>
+
+      <!-- Stack Badges -->
+      <g transform="translate(0, 114)">
+        <text x="0" y="14" fill="#A1A1AA" class="proj-font-mono" font-size="10">Next.js · TypeScript · Node.js · MongoDB</text>
+        <text x="320" y="14" fill="#DC2626" class="proj-font-mono" font-size="9" font-weight="700">[ COMPETITIVE ]</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= ROW 2: CARDS 3 & 4 ================= -->
+  <!-- CARD 3: City Waste Command -->
+  <g transform="translate(30, 278)">
+    <rect width="425" height="175" rx="14" fill="#14141E" stroke="url(#proj-card-border)" stroke-width="1.2"/>
+    
+    <g transform="translate(20, 24)">
+      <!-- Title & Category -->
+      <text x="0" y="0" fill="#F8FAFC" class="proj-font-display" font-size="16" font-weight="700">City Waste Command</text>
+      <rect x="175" y="-12" width="108" height="18" rx="4" fill="#1B1922" stroke="#DC2626" stroke-opacity="0.3" stroke-width="0.8"/>
+      <text x="183" y="0.5" fill="#F05033" class="proj-font-mono" font-size="8.5" font-weight="600">CIRCULAR AI OPS</text>
+
+      <!-- Subtitle -->
+      <text x="0" y="20" fill="#F05033" class="proj-font-mono" font-size="10.5" font-weight="600">AI-Driven Circular Waste Intelligence System</text>
+
+      <!-- Description -->
+      <text x="0" y="38" fill="#A1A1AA" class="proj-font-display" font-size="11">
+        <tspan x="0" dy="0">Geospatial municipal monitoring system coordinating sensor</tspan>
+        <tspan x="0" dy="16">telemetry, collection logistics, and circular analytics.</tspan>
+      </text>
+
+      <!-- Achievement Callout -->
+      <g transform="translate(0, 78)">
+        <rect width="385" height="22" rx="4" fill="#1B1922" stroke="#DC2626" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="8" y="14.5" fill="#F05033" class="proj-font-mono" font-size="9" font-weight="700">🎖️ AWARD: Selected among Top 1000 teams in national hackathon</text>
+      </g>
+
+      <!-- Stack & Link -->
+      <g transform="translate(0, 114)">
+        <text x="0" y="14" fill="#A1A1AA" class="proj-font-mono" font-size="9.5">React · TS · Express · Tailwind · Shadcn · Recharts · Leaflet</text>
+        <a href="https://github.com/Neet2516/city-waste-command" target="_blank">
+          <text x="345" y="14" fill="#F8FAFC" class="proj-font-mono" font-size="10" text-decoration="underline">Repo ↗</text>
+        </a>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 4: Rust CRM -->
+  <g transform="translate(485, 278)">
+    <rect width="425" height="175" rx="14" fill="#14141E" stroke="url(#proj-card-border)" stroke-width="1.2"/>
+    
+    <g transform="translate(20, 24)">
+      <!-- Title & Category -->
+      <text x="0" y="0" fill="#F8FAFC" class="proj-font-display" font-size="16" font-weight="700">Rust CRM</text>
+      <rect x="88" y="-12" width="112" height="18" rx="4" fill="#1B1922" stroke="#DC2626" stroke-opacity="0.3" stroke-width="0.8"/>
+      <text x="96" y="0.5" fill="#F05033" class="proj-font-mono" font-size="8.5" font-weight="600">HIGH-PERF RUST</text>
+
+      <!-- Subtitle -->
+      <text x="0" y="20" fill="#F05033" class="proj-font-mono" font-size="10.5" font-weight="600">Client Lead Management System</text>
+
+      <!-- Description -->
+      <text x="0" y="38" fill="#A1A1AA" class="proj-font-display" font-size="11">
+        <tspan x="0" dy="0">High-concurrency CRM service built with Rust backend for</tspan>
+        <tspan x="0" dy="16">memory safety and microsecond-level query throughput.</tspan>
+      </text>
+
+      <!-- Stack Badges -->
+      <g transform="translate(0, 78)">
+        <rect width="385" height="22" rx="4" fill="#0D0E16" stroke="#1B1922" stroke-width="0.8"/>
+        <text x="8" y="14.5" fill="#A1A1AA" class="proj-font-mono" font-size="9">Rust Backend · React Client · TypeScript · REST APIs</text>
+      </g>
+
+      <!-- Links -->
+      <g transform="translate(0, 114)">
+        <a href="https://github.com/Neet2516/FUTURE_FS_02" target="_blank">
+          <text x="0" y="14" fill="#F8FAFC" class="proj-font-mono" font-size="10" text-decoration="underline">Source Code (FUTURE_FS_02) ↗</text>
+        </a>
+        <text x="215" y="14" fill="#A1A1AA" class="proj-font-mono" font-size="10">|</text>
+        <a href="https://rust-crm-six.vercel.app/" target="_blank">
+          <text x="230" y="14" fill="#F05033" class="proj-font-mono" font-size="10" text-decoration="underline">Live Production App ↗</text>
+        </a>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= ROW 3: FLAGSHIP CARD (DevFlow) ================= -->
+  <g transform="translate(30, 468)">
+    <rect width="880" height="195" rx="16" fill="#14141E" fill-opacity="0.95" stroke="url(#proj-flagship-border)" stroke-width="1.8"/>
+
+    <g transform="translate(28, 28)">
+      <!-- Flagship Badge & Stars -->
+      <g transform="translate(0, -6)">
+        <rect width="138" height="22" rx="5" fill="#991B1B" fill-opacity="0.3" stroke="#DC2626" stroke-width="1"/>
+        <circle class="proj-beacon" cx="10" cy="11" r="3.5" fill="#DC2626"/>
+        <text x="18" y="14.5" fill="#FFFFFF" class="proj-font-mono" font-size="9" font-weight="700">★ FLAGSHIP ENGINE</text>
+
+        <rect x="146" width="94" height="22" rx="5" fill="#0D0E16" stroke="#F05033" stroke-width="1"/>
+        <text x="156" y="14.5" fill="#F05033" class="proj-font-mono" font-size="9.5" font-weight="700">12 GITHUB ★</text>
+      </g>
+
+      <!-- Project Name -->
+      <text x="0" y="44" fill="#F8FAFC" class="proj-font-display" font-size="22" font-weight="800" letter-spacing="-0.4">DevFlow</text>
+      <text x="110" y="42" fill="#F05033" class="proj-font-mono" font-size="12" font-weight="600">// Distributed Workflow Automation &amp; CI/CD Engine</text>
+
+      <!-- Description -->
+      <text x="0" y="68" fill="#A1A1AA" class="proj-font-display" font-size="12" line-height="20">
+        <tspan x="0" dy="0">Distributed CI/CD workflow engine for validating and scheduling DAG-based pipelines, coordinating</tspan>
+        <tspan x="0" dy="18">specialized worker pools, and streaming live execution telemetry with automatic failure recovery.</tspan>
+      </text>
+
+      <!-- Stack Badges Bar -->
+      <g transform="translate(0, 104)">
+        <rect width="824" height="26" rx="6" fill="#0D0E16" stroke="#1B1922" stroke-width="1"/>
+        <text x="12" y="17" fill="#F8FAFC" class="proj-font-mono" font-size="10">Node.js · TypeScript · Express · BullMQ · Redis Streams · PostgreSQL · React · Vite · Docker</text>
+      </g>
+
+      <!-- Links & Docs -->
+      <g transform="translate(0, 146)">
+        <a href="https://github.com/Neet2516/Devflow" target="_blank">
+          <text x="0" y="0" fill="#FFFFFF" class="proj-font-mono" font-size="11" font-weight="700" text-decoration="underline">GitHub Repository (github.com/Neet2516/Devflow) ↗</text>
+        </a>
+        <text x="420" y="0" fill="#A1A1AA" class="proj-font-mono" font-size="11">|</text>
+        <a href="https://docs-devflow.vercel.app" target="_blank">
+          <text x="435" y="0" fill="#F05033" class="proj-font-mono" font-size="11" font-weight="700" text-decoration="underline">Official Documentation (docs-devflow.vercel.app) ↗</text>
+        </a>
+      </g>
+    </g>
+  </g>
+</svg>

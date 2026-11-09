@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="about-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0E16"/>
+      <stop offset="50%" stop-color="#14141E"/>
+      <stop offset="100%" stop-color="#0D0E16"/>
+    </linearGradient>
+
+    <radialGradient id="about-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0D0E16" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="about-card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#1B1922" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#F05033" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="about-ring-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F05033"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+
+    <linearGradient id="about-ring-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </linearGradient>
+
+    <linearGradient id="about-ring-grad-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991B1B"/>
+      <stop offset="100%" stop-color="#450A0A"/>
+    </linearGradient>
+
+    <pattern id="about-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.7" fill="#F05033" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .about-font-display {
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .about-font-mono {
+      font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    @keyframes about-cursor-blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes about-progress-glow {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; }
+    }
+    @keyframes about-ring-rotate {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .about-cursor { animation: about-cursor-blink 1s infinite; }
+    .about-progress { animation: about-progress-glow 2.5s infinite ease-in-out; }
+  </style>
+
+  <!-- Background -->
+  <rect width="940" height="480" rx="20" fill="url(#about-bg-grad)"/>
+  <rect width="940" height="480" rx="20" fill="url(#about-glow)"/>
+  <rect width="940" height="480" rx="20" fill="url(#about-dots)"/>
+  <rect x="1" y="1" width="938" height="478" rx="19" fill="none" stroke="url(#about-card-border)" stroke-width="1.5"/>
+
+  <!-- ================= CARD 1: WHAT I BUILD (LEFT) ================= -->
+  <g transform="translate(30, 24)">
+    <!-- Glass Card Base -->
+    <rect width="425" height="432" rx="16" fill="#14141E" fill-opacity="0.95" stroke="url(#about-card-border)" stroke-width="1.2"/>
+
+    <!-- Terminal Header -->
+    <rect width="425" height="38" rx="16" fill="#1B1922"/>
+    <rect y="26" width="425" height="12" fill="#1B1922"/>
+    
+    <!-- Window Control Dots -->
+    <circle cx="24" cy="19" r="5" fill="#F05033"/>
+    <circle cx="40" cy="19" r="5" fill="#991B1B"/>
+    <circle cx="56" cy="19" r="5" fill="#450A0A"/>
+
+    <!-- Terminal Title -->
+    <text x="80" y="23" fill="#A1A1AA" class="about-font-mono" font-size="11">neet@kernel:~/manifesto.sh</text>
+
+    <!-- Shell Prompt -->
+    <g transform="translate(24, 60)">
+      <text x="0" y="0" fill="#DC2626" class="about-font-mono" font-size="12" font-weight="700">$</text>
+      <text x="14" y="0" fill="#F8FAFC" class="about-font-mono" font-size="12">./display_core_focus.sh</text>
+      <rect class="about-cursor" x="180" y="-10" width="7" height="13" fill="#F05033"/>
+    </g>
+
+    <!-- Card Title -->
+    <text x="24" y="98" fill="#F8FAFC" class="about-font-display" font-size="18" font-weight="700" letter-spacing="-0.3">WHAT I BUILD</text>
+    <line x1="24" y1="108" x2="400" y2="108" stroke="#1B1922" stroke-width="1"/>
+    <line x1="24" y1="108" x2="120" y2="108" stroke="#DC2626" stroke-width="1.5"/>
+
+    <!-- Section 1: Full Stack Development -->
+    <g transform="translate(24, 126)">
+      <rect width="377" height="74" rx="8" fill="#1B1922" fill-opacity="0.6" stroke="#DC2626" stroke-opacity="0.2" stroke-width="1"/>
+      <circle cx="20" cy="22" r="7" fill="#DC2626" fill-opacity="0.2"/>
+      <circle cx="20" cy="22" r="3.5" fill="#F05033"/>
+      <text x="36" y="26" fill="#F8FAFC" class="about-font-display" font-size="13.5" font-weight="700">Full Stack Development</text>
+      <text x="36" y="44" fill="#A1A1AA" class="about-font-display" font-size="11.5">
+        <tspan x="36" dy="0">Modern web applications using React, Next.js, TypeScript,</tspan>
+        <tspan x="36" dy="16">and Node.js. Fluid interfaces backed by robust architectures.</tspan>
+      </text>
+    </g>
+
+    <!-- Section 2: Backend & Systems -->
+    <g transform="translate(24, 212)">
+      <rect width="377" height="74" rx="8" fill="#1B1922" fill-opacity="0.6" stroke="#DC2626" stroke-opacity="0.2" stroke-width="1"/>
+      <circle cx="20" cy="22" r="7" fill="#DC2626" fill-opacity="0.2"/>
+      <circle cx="20" cy="22" r="3.5" fill="#F05033"/>
+      <text x="36" y="26" fill="#F8FAFC" class="about-font-display" font-size="13.5" font-weight="700">Backend &amp; Systems Engineering</text>
+      <text x="36" y="44" fill="#A1A1AA" class="about-font-display" font-size="11.5">
+        <tspan x="36" dy="0">Exploring Rust, APIs, databases, distributed systems,</tspan>
+        <tspan x="36" dy="16">and scalable architectures with Axum, Tokio, and Redis.</tspan>
+      </text>
+    </g>
+
+    <!-- Section 3: AI & Automation -->
+    <g transform="translate(24, 298)">
+      <rect width="377" height="74" rx="8" fill="#1B1922" fill-opacity="0.6" stroke="#DC2626" stroke-opacity="0.2" stroke-width="1"/>
+      <circle cx="20" cy="22" r="7" fill="#DC2626" fill-opacity="0.2"/>
+      <circle cx="20" cy="22" r="3.5" fill="#F05033"/>
+      <text x="36" y="26" fill="#F8FAFC" class="about-font-display" font-size="13.5" font-weight="700">AI &amp; Workflow Automation</text>
+      <text x="36" y="44" fill="#A1A1AA" class="about-font-display" font-size="11.5">
+        <tspan x="36" dy="0">Building intelligent pipelines, autonomous AI agents,</tspan>
+        <tspan x="36" dy="16">N8N orchestrations, and LLM-assisted developer tooling.</tspan>
+      </text>
+    </g>
+
+    <!-- Architecture Badges -->
+    <g transform="translate(24, 390)">
+      <rect width="112" height="22" rx="4" fill="#0D0E16" stroke="#991B1B" stroke-width="0.8"/>
+      <text x="10" y="15" fill="#F05033" class="about-font-mono" font-size="9" font-weight="600">[ CRDT-ENABLED ]</text>
+
+      <rect x="120" width="124" height="22" rx="4" fill="#0D0E16" stroke="#991B1B" stroke-width="0.8"/>
+      <text x="130" y="15" fill="#F05033" class="about-font-mono" font-size="9" font-weight="600">[ ASYNC-STREAMING ]</text>
+
+      <rect x="252" width="124" height="22" rx="4" fill="#0D0E16" stroke="#991B1B" stroke-width="0.8"/>
+      <text x="262" y="15" fill="#F05033" class="about-font-mono" font-size="9" font-weight="600">[ ZERO-LATENCY ]</text>
+    </g>
+  </g>
+
+  <!-- ================= CARD 2: BEYOND CODE (RIGHT) ================= -->
+  <g transform="translate(485, 24)">
+    <!-- Glass Card Base -->
+    <rect width="425" height="432" rx="16" fill="#14141E" fill-opacity="0.95" stroke="url(#about-card-border)" stroke-width="1.2"/>
+
+    <!-- Story Progress Bars (Instagram Style) -->
+    <g transform="translate(24, 16)" class="about-progress">
+      <rect x="0" y="0" width="58" height="3" rx="1.5" fill="#F05033"/>
+      <rect x="63" y="0" width="58" height="3" rx="1.5" fill="#DC2626"/>
+      <rect x="126" y="0" width="58" height="3" rx="1.5" fill="#DC2626"/>
+      <rect x="189" y="0" width="58" height="3" rx="1.5" fill="#991B1B"/>
+      <rect x="252" y="0" width="58" height="3" rx="1.5" fill="#991B1B"/>
+      <rect x="315" y="0" width="62" height="3" rx="1.5" fill="#450A0A"/>
+    </g>
+
+    <!-- Header -->
+    <g transform="translate(24, 40)">
+      <text x="0" y="0" fill="#F05033" class="about-font-mono" font-size="10.5" font-weight="700" letter-spacing="1.5">ENGINEER DISPATCH // STORY MODE</text>
+      <text x="0" y="24" fill="#F8FAFC" class="about-font-display" font-size="18" font-weight="700" letter-spacing="-0.3">BEYOND THE TERMINAL</text>
+    </g>
+    <line x1="24" y1="78" x2="400" y2="78" stroke="#1B1922" stroke-width="1"/>
+    <line x1="24" y1="78" x2="140" y2="78" stroke="#DC2626" stroke-width="1.5"/>
+
+    <!-- 6 Curated Highlights -->
+    <g transform="translate(24, 94)">
+      <!-- Item 1 -->
+      <g transform="translate(0, 0)">
+        <circle cx="6" cy="7" r="3" fill="#DC2626"/>
+        <text x="18" y="10" fill="#F8FAFC" class="about-font-display" font-size="12" font-weight="600">Open-source contributions</text>
+        <text x="18" y="24" fill="#A1A1AA" class="about-font-display" font-size="10.5">Contributing to developer tooling and community ecosystems.</text>
+      </g>
+      <!-- Item 2 -->
+      <g transform="translate(0, 38)">
+        <circle cx="6" cy="7" r="3" fill="#DC2626"/>
+        <text x="18" y="10" fill="#F8FAFC" class="about-font-display" font-size="12" font-weight="600">Hackathons &amp; High-Pressure Sprints</text>
+        <text x="18" y="24" fill="#A1A1AA" class="about-font-display" font-size="10.5">Building rapid prototypes, competing, and validating architectures.</text>
+      </g>
+      <!-- Item 3 -->
+      <g transform="translate(0, 76)">
+        <circle cx="6" cy="7" r="3" fill="#DC2626"/>
+        <text x="18" y="10" fill="#F8FAFC" class="about-font-display" font-size="12" font-weight="600">Exploring New Technologies</text>
+        <text x="18" y="24" fill="#A1A1AA" class="about-font-display" font-size="10.5">Deep diving into Rust, Axum, Tokio, and emerging distributed primitives.</text>
+      </g>
+      <!-- Item 4 -->
+      <g transform="translate(0, 114)">
+        <circle cx="6" cy="7" r="3" fill="#DC2626"/>
+        <text x="18" y="10" fill="#F8FAFC" class="about-font-display" font-size="12" font-weight="600">Building Real-World Side Projects</text>
+        <text x="18" y="24" fill="#A1A1AA" class="about-font-display" font-size="10.5">Turning developer bottlenecks into clean open-source software.</text>
+      </g>
+      <!-- Item 5 -->
+      <g transform="translate(0, 152)">
+        <circle cx="6" cy="7" r="3" fill="#DC2626"/>
+        <text x="18" y="10" fill="#F8FAFC" class="about-font-display" font-size="12" font-weight="600">Learning System Design</text>
+        <text x="18" y="24" fill="#A1A1AA" class="about-font-display" font-size="10.5">Studying fault tolerance, CRDTs, consensus, and horizontal scaling.</text>
+      </g>
+      <!-- Item 6 -->
+      <g transform="translate(0, 190)">
+        <circle cx="6" cy="7" r="3" fill="#DC2626"/>
+        <text x="18" y="10" fill="#F8FAFC" class="about-font-display" font-size="12" font-weight="600">Linux &amp; Developer Tooling</text>
+        <text x="18" y="24" fill="#A1A1AA" class="about-font-display" font-size="10.5">Custom CLI environments, shell scripting, automation, and dotfiles.</text>
+      </g>
+    </g>
+
+    <!-- Activity Rings Section -->
+    <g transform="translate(24, 326)">
+      <rect width="377" height="92" rx="10" fill="#0D0E16" stroke="#1B1922" stroke-width="1"/>
+      
+      <!-- Concentric Activity Rings -->
+      <g transform="translate(56, 46)">
+        <!-- Outer Track & Ring (Code & Systems - 94%) -->
+        <circle cx="0" cy="0" r="36" fill="none" stroke="#1B1922" stroke-width="5"/>
+        <circle cx="0" cy="0" r="36" fill="none" stroke="url(#about-ring-grad-1)" stroke-width="5" stroke-dasharray="226" stroke-dashoffset="14" stroke-linecap="round"/>
+        
+        <!-- Mid Track & Ring (Open Source - 88%) -->
+        <circle cx="0" cy="0" r="27" fill="none" stroke="#1B1922" stroke-width="5"/>
+        <circle cx="0" cy="0" r="27" fill="none" stroke="url(#about-ring-grad-2)" stroke-width="5" stroke-dasharray="170" stroke-dashoffset="20" stroke-linecap="round"/>
+
+        <!-- Inner Track & Ring (Architecture - 82%) -->
+        <circle cx="0" cy="0" r="18" fill="none" stroke="#1B1922" stroke-width="5"/>
+        <circle cx="0" cy="0" r="18" fill="none" stroke="url(#about-ring-grad-3)" stroke-width="5" stroke-dasharray="113" stroke-dashoffset="20" stroke-linecap="round"/>
+      </g>
+
+      <!-- Rings Legend -->
+      <g transform="translate(120, 22)">
+        <circle cx="6" cy="6" r="4" fill="#F05033"/>
+        <text x="16" y="9" fill="#F8FAFC" class="about-font-mono" font-size="9.5" font-weight="600">SYSTEMS &amp; CORE CODE</text>
+        <text x="195" y="9" fill="#F05033" class="about-font-mono" font-size="9.5" font-weight="700">94%</text>
+
+        <circle cx="6" cy="24" r="4" fill="#DC2626"/>
+        <text x="16" y="27" fill="#F8FAFC" class="about-font-mono" font-size="9.5" font-weight="600">OPEN SOURCE &amp; LABS</text>
+        <text x="195" y="27" fill="#DC2626" class="about-font-mono" font-size="9.5" font-weight="700">88%</text>
+
+        <circle cx="6" cy="42" r="4" fill="#991B1B"/>
+        <text x="16" y="45" fill="#F8FAFC" class="about-font-mono" font-size="9.5" font-weight="600">RESEARCH &amp; DESIGN</text>
+        <text x="195" y="45" fill="#991B1B" class="about-font-mono" font-size="9.5" font-weight="700">82%</text>
+      </g>
+    </g>
+  </g>
+</svg>
