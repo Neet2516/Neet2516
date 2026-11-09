@@ -1,36 +1,29 @@
 <div align="center">
 
-<!-- 01. HERO: CINEMATIC INTRODUCTION -->
 <p align="center">
   <img src="svg/hero.svg?raw=true" alt="Navneet Sinha — Full Stack Developer & Systems Engineer" width="100%" />
 </p>
 
-<!-- 02. ABOUT ME: WHAT I BUILD & BEYOND THE CODE -->
 <p align="center">
   <img src="svg/about-life.svg?raw=true" alt="About Navneet Sinha — What I Build & Beyond the Terminal" width="100%" />
 </p>
 
-<!-- 03. TECH STACK: ORBITAL UNIVERSE -->
 <p align="center">
   <img src="svg/stack.svg?raw=true" alt="Neet2516 Orbital Tech Universe — Runtime Tiers & Architecture" width="100%" />
 </p>
 
-<!-- 04. DEVELOPER ID & REAL-TIME DASHBOARD -->
 <p align="center">
   <img src="svg/id-dashboard.svg?raw=true" alt="Neet2516 Holographic Developer ID Card & GitHub Telemetry Dashboard" width="100%" />
 </p>
 
-<!-- 05. FEATURED PROJECTS SHOWCASE -->
 <p align="center">
   <img src="svg/projects.svg?raw=true" alt="Featured Engineering Projects — DevFlow, SyncBoard, Code Theft Auto, City Waste Command, Rust CRM" width="100%" />
 </p>
 
-<!-- 06. OPEN SOURCE BADGES & DEV COMMUNITY WRITING -->
 <p align="center">
   <img src="svg/community-badges.svg?raw=true" alt="Hacktoberfest 2026 Badges & DEV Community Author Essays (@navneet_sinha)" width="100%" />
 </p>
 
-<!-- ACCESSIBLE REPOSITORY & ARTICLE DIRECTORY -->
 <details open>
 <summary><strong>⚡ Core Engineering Repositories &amp; Technical Publications</strong></summary>
 <br />
@@ -77,7 +70,6 @@
 
 <br />
 
-<!-- 07. GITHUB CONTRIBUTION CITY: 3D METROPOLIS -->
 <p align="center">
   <img src="profile-3d-contrib/profile-night-view.svg?raw=true" alt="Neet2516 Midnight 3D GitHub Contribution City Skyline" width="100%" />
 </p>
@@ -86,12 +78,10 @@
   <sub>Night skyline automatically refreshed daily via <a href=".github/workflows/contribution-city.yml">GitHub Actions</a> and <code>yoshi389111/github-profile-3d-contrib</code>.</sub>
 </p>
 
-<!-- 08. CONNECT: ANIME STICKER & COMMUNICATION CHANNELS -->
 <p align="center">
   <img src="svg/connect.svg?raw=true" alt="Connect with Navneet Sinha (@Neet2516) — GitHub, DEV.to, LinkedIn, Portfolio, Email" width="100%" />
 </p>
 
-<!-- FOOTER METADATA -->
 <p align="center">
   <a href="https://github.com/Neet2516"><strong>GitHub</strong></a> &nbsp;·&nbsp;
   <a href="https://dev.to/navneet_sinha"><strong>DEV.to</strong></a> &nbsp;·&nbsp;
